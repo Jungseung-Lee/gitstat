@@ -1,0 +1,16 @@
+Here is a rough development plan for each version
+
+ver 0.9
+- add line or pie chart for statistics
+- add more useful charts
+- use crontab to generate default charts for performance boost
+- add navigation interface to charts so that users can jump easier
+- divide text messages for better i18n
+
+ver 1.x
+- show changeset for each file 
+(add source navigation interface which supports changeset history)
+- add theme ability so that users can choose site design
+
+ver 2.x
+- support multiple git tree

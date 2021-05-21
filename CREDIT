@@ -1,0 +1,16 @@
+current main developer
+- Paul Vriens <paul.vriens.gitstat (at) gmail.com>
+
+gitstat version 0.1 ~ 0.3
+- main developer: Jeongseong Lee <js07.lee (at) samsung.com>
+- project admin: Shawn Kwon <kss (at) kldp.org>
+
+gitstat was derived from kfm(Kernel Feature Monitor)
+- kfm developer: Geunsik Lim <geunsik.lim (at) samsung.com>
+- kfm prject admin: Sangbae Lee <sangbae90.lee (at) samsung.com>
+
+the following people/organization also helped us
+- Oleksiy Kokachev: message translation, various patches...etc
+
+- Samsung Electronics: initial funding to the project
+- CE Linux Forum: provided hosting space

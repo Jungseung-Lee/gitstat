@@ -1,0 +1,13 @@
+Upgrading from v0.4 or earlier to v0.5
+======================================
+
+Because of the changes in v0.5 with respect to the configuration files the 
+following approach can be taken:
+
+. cp path_to_gitstat/config.php path_to_gitstat/gstat_rw/config/dbconfig.php
+. cp path_to_gitstat/config.php path_to_gitstat/gstat_rw/config/gitstatconfig.php
+
+The new configuration parameters can be checked by logging in as an adminstrator
+and visiting the admin page.
+
+path_to_gitstat/config.php  can be removed as it's no longer used.

@@ -1,0 +1,49 @@
+1. system Requirements
+   .Git 1.5.2 or later
+   .PHP 4.3.3 or later
+      * GD 1.8.x or GD 2.15 or higher
+   .Mysql 3.x or later
+   .Perl, Perl-DBD-MySQL, Perl-DBI
+   .Perl MIME:Lite Module (Lite.pm)
+	copy to .../path_to_gitstat/gstat_pl/lib
+   .GeSHi( Generic Syntax Highlighter )
+   .JpGraph 1.21 or JpGraph 2.2(for PHP5)
+
+2. uncompress the gitstat tarball and make sure that a part of the gstat_rw directory is 
+   writable to the user of web server
+   . chown -R apache.apache .../path_to_gitstat/gstat_rw/config
+   . chown -R apache.apache .../path_to_gitstat/gstat_rw/diff
+
+3. create a clone of the git repository
+   For example cloning the 2.6 kernel:
+   . cd <directory to hold the clone directory and can be read by the webserver user>
+   . git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux-2.6.git <name of your git clone>
+     This can take a long time on big repositories
+
+4. create mysql user/password
+   . mysql -u root -p
+      . GRANT ALL PRIVILEGES ON *.* TO '<user>'@'localhost' IDENTIFIED BY '<password>' WITH GRANT OPTION;
+
+5. visit your gitstat webpage using your browser and goto the installation.php page
+   . create and initialize the database
+   . create the first admin user
+
+6. remove the installation.php page
+
+7. login as an admin user to:
+   . set the needed configuration variables
+   . save the configuration
+
+8. prepare perl configuration
+   . cp path_to_gitstat/gstat_rw/config/perlconfig.pl path_to_gitstat/gstat_pl/config.pl
+
+9. fill the database for the first time
+   . cd path_to_gitstat/gstat_pl
+   . ./gitstat.pl HEAD
+     This first run will take a long time but of course depends on the size of the repository, the speed of your box etc..
+
+10. visit your gitstat webpage using your browser and start using gitstat!
+
+11. prepare a cron job to regularly update your git clone
+   . change the path_to_gitstat/gstat_pl/gitstat.sh file to suit your needs
+   . use the file in a new cronjob

@@ -1,0 +1,44 @@
+Version 0.5
+23-Apr-2008
+================
+- Fix top author/domain graphs
+- Further changes to and removal of kernel-centric items
+- Nicer (I know, subjective) main page
+- Start of data gathering abstraction
+- Times shown on the pages are based on GMT now
+- New installation page to aid in creating and filling the database
+- New configuration page (admin only)
+
+Version 0.4
+30-Oct-2007
+============
+- Major cleanups
+- Removal of several unused files
+- Automatic database updates on top of the base install
+- Tag management on the admin page
+- Multiple gitstat instances on one webserver
+- More graphs can handle pages (back and forward in time)
+
+Version 0.3
+05-Sep-2007
+============
+- Cut off contents string in commit-detail.php  
+- Typos fix  
+- Add Pie and Line Graph.  
+- Add RSS service.  
+- Made ybase of graph changed by max-y value. 
+- modify SQL statements for speed wise.  
+- table structure improvement  
+- modify join.php for non kernel-specific.  
+- modify invalid tag's date
+
+Version 0.2
+29-Aug-2007
+============
+- support Text & HTML format Monitoring(E-mail).
+- support Individual file & Sub-Directory Monitoring. 
+
+Version 0.1
+16-Aug-2007
+============
+Initial version

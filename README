@@ -1,0 +1,26 @@
+gitstat is a GPL'd, web-based statistics and monitoring system for git, 
+a version control system which is best known for linux kernel. 
+gitstat retrieves development status and shows various statistics 
+information like how many changesets were merged per day or month, 
+how many people have submitted changeset per specified tag(version), 
+how long does it take for specified tag(version)...etc.
+
+gitstat also features a monitoring interface. Users can select 
+interested linux kernel directory and get notification if any 
+changeset merged modifies file to that directory. 
+This is a very handy feature for linux users and developers.
+
+gitstat was derived from kfm(kernel feature monitor) which 
+was originally developed by Keun-Sik Lim and Sang-Bae Lee of 
+Samsung Electronics and currently maintained and developed by 
+Jeong-Seung Lee and Soon-Son Kwon(Shawn) of Samsung Electronics.
+The original idea of gitstat came from Jon Corbet of lwn.net
+when he analyzed the git tree and Greg KH when he presented
+similar status report at OLS2007.
+
+gitstat is still in early stage and requires much improvements.
+Suggestions, bug reports, patches are always welcomed. 
+Anyone interested can freely download the source code or 
+participate at http://sourceforge.net/projects/gitstat .
+
+You can try gitstat at http://tree.celinuxforum.org/gitstat also.

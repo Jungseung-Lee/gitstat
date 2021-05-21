@@ -1,0 +1,425 @@
+/* 
+	project: Internet Jobs Template
+	author: Luka Cvrk (www.solucija.com)
+	Stylesheet
+*/
+
+
+body {
+	background: #FFFFFF url(header.gif) repeat-x top left;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+	font: 0.7em "Arial", Helvetica, Sans-Serif;
+}
+
+a { 
+	color: #3C6491;
+	background-color: inherit;
+}
+
+a:hover {
+	color: #BF3E17;
+	background-color: inherit;
+}
+
+h1 {
+	font: 160% Arial, Sans-Serif;
+	font-weight: bold;
+	padding: 3px 0 0 0;
+	margin: 0;
+}
+
+h1 a {
+	color: #BF3E17;
+	background: inherit;
+	text-decoration: none;
+	font-size:20px;
+}
+
+h1 a:hover {
+	color: #3C6491;
+	background: inherit;
+	text-decoration: none;
+}
+
+h2 {
+	margin: 8px 0 5px 0;
+	padding: 0;
+	font-size: 1.4em;
+	letter-spacing: -1px;
+	color: #808080;
+	background-color: inherit;
+}
+
+h2 a {
+	color: #000000;
+	text-decoration: none;
+	background-color: inherit;
+	background-image: url(h2bg.gif);
+	background-repeat: no-repeat;
+	background-position: center left;
+	
+	padding: 0 0 0 20px;
+}
+
+h2 a:hover {
+	background: url(h2bghover.gif) no-repeat center left;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0;
+}
+
+#middle_line 
+{
+	height:3px;
+	background:black;
+	font-size:3px;
+}
+
+#header {
+	clear: both;
+	width: 850px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+#logo {
+	float: left;
+	color: #000000;
+	background: inherit;
+	max-width: 400px;
+}
+
+#subtitle {
+       float: left;
+       padding: 13px 0 5px 0;
+}
+
+.slogan {
+	float: left;
+	border-left: 1px solid #CCCCCC;
+	padding: 0 0 0 20px;
+}
+
+
+#filealign {
+	width: 190px;
+	height:20px;
+	padding: 0px 0 0px 0;
+	float: left;
+	border-left: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+
+#hmenu {
+	padding: 13px 0 5px 0;
+	float: right;
+	top: 0px;
+}
+
+#hmenu a {
+	padding: 12px 13px 2px 11px;
+	text-decoration: none;
+	color: #414141;
+	background: #ccc url(hmenuarrow.gif) no-repeat top center;
+	margin: 0 0 3px 1px;
+	border-bottom: 4px solid #BCBCBC;
+}
+
+#hmenu a:hover {
+	background: #3C6491 url(hmenuarrowhover.gif) no-repeat top center;
+	color: #FFFFFF;
+	border-bottom: 4px solid #2F4A6C;
+}
+
+.content {
+	border-top: 1px solid #FEFEFE; 
+	background: #FFFFFF url(contentbg.gif) repeat-x left top;
+	color: #000000;
+}
+
+
+
+#articles {
+	width: 865px;
+	padding: 3px 0 0 10px;
+	margin: 0 auto 10px auto;
+}
+
+#left {
+	float: left;
+	width: 675px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #CCCCCC;
+	min-height:750px;
+	height:expression("750px");
+}
+
+
+#mainarticle {
+	clear: both;
+	margin: 0 auto;
+	width: 590px;
+	padding: 10px;
+	background: #3C6491 url(linksbg.gif) repeat-x top left;
+	color: #FFF;
+}
+
+#statoptionbox {
+	
+	height:220px;
+	padding:0 0px 0 0;
+	
+}
+
+#leftchartmenu {
+	float: left;
+	width: 250px;
+	height:120px;
+	padding:5px 0px 5px 10px;
+	
+}
+
+#rightchartmenu {
+	
+	float: left;
+	width: 350px;
+	height:120px;
+	padding:5px 0px 5px 10px;
+}
+#option1 {
+	padding:5px 0px 25px 15px;
+}
+#option2 {
+	padding:5px 0px 25px 15px;
+}
+#option3 {
+	padding:5px 0px 25px 15px;
+}
+
+#chartgraph {
+	min-height:420px;
+	height:expression("420px");
+}
+
+#shortlog {
+	font: 1.1em "Arial", Helvetica, Sans-Serif;
+
+}
+
+#shortlog a{
+	text-decoration: none;
+	
+}
+
+#tags {
+	font: 1.1em "Arial", Helvetica, Sans-Serif;
+
+}
+
+
+#commit_view_subject{
+	PADDING-RIGHT: 8px;
+	PADDING-LEFT: 8px; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 13px;
+	HEIGHT: 28px; 
+	BACKGROUND-COLOR: #e9e8d1;
+	COLOR: #880000;
+}
+
+
+#commit_view_contents{
+	border:1px solid #dddddd;
+	padding:18px;
+	
+	white-space: nowrap; /* CSS2 */
+	word-wrap: break-word; /* IE */
+}
+
+#right {
+	float: left;
+	width: 165px;
+}
+
+#rightmenu {
+	margin: 0;
+	padding: 0;
+}
+
+#rightmenu a {
+	display: block;
+	background: #BF3E18 url(vmenuarrow.gif) no-repeat center left;
+	color: #FFFFFF;
+	padding: 5px 0 5px 19px;
+	margin: 0 0 1px 0;
+	text-decoration: none;
+}
+
+#rightmenu a:hover {
+	color: #FFFFFF;
+	background: #822C0F url(vmenuarrowhover.gif) no-repeat center left;
+}
+
+.rightarticle {
+	background: #EFEFEF;
+	color: #808080;
+	margin: 3px 0 3px 0;
+	padding: 8px;
+	line-height: 1.4em;
+	
+}
+
+.rightarticle_ad {
+	font: 140% Arial, Sans-Serif;
+	font-weight: bold;
+	border: 2px solid #EEEEEE;
+	color: #808080;
+	margin: 2px 0 2px 0;
+	padding: 17px;
+	width: 130px;
+	height: 17px;
+	background: #FFFFFF url(seoad.jpg) no-repeat;
+}
+.rightarticle_ad a {
+	
+	background: transparent; 
+	text-decoration: none;
+}
+
+
+
+#additional {
+	clear: both;
+	width: 820px;
+	background-color: #FFFFFF;
+	color: #000000;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+
+
+#links {
+	clear: both;
+	margin: 0 auto;
+	width: 830px;
+	padding: 10px;
+	background: #3C6491 url(linksbg.gif) repeat-x top left;
+	color: #FFF;
+}
+
+#whiteline {
+	margin-top: 10px;
+	border-top: 3px solid #FFFFFF;
+}
+
+#footer {
+	clear: both;
+	margin: 0 auto;
+	width: 860px;
+	min-height:70px;
+	padding: 10px;
+	background: #3C6491 url(linksbg.gif) repeat-x top left;
+	color: #FFF;
+}
+
+#footer p {
+	padding-top: 10px;
+	padding-bottom: 25px;
+	line-height: 1.8em;
+	color: #FFFFFF;
+}
+
+#footer a {
+	color: #DDDDDD;
+	background: inherit;
+}
+
+form.search { padding: 0; margin: 0; }
+
+#searchform {
+	background: #808080;
+	color: #FFFFFF;
+	padding: 5px 8px 5px 18px;
+	margin: 0px;
+}
+
+#searchform a {
+	text-decoration: none;
+
+}
+
+input.text { margin: 0; padding: 0; width: 128px; border: 1px solid #eee; color: #000000; background: #d8d8d8; }
+input.text:hover { border: 1px solid #FFFFFF; background: #EEEEEE; color: #000000; }
+input.button { margin: 0; padding: 0 0 0 3px; font-size: 100%; font-family: Arial, Sans-Serif; border: none; background: none; color: #FFF; background: #808080; font-weight: bold; }
+.date { margin: 5px 0 5px 0; padding: 10px 5px 5px 0; background: #FFFFFF url(horizontaldotted.gif) repeat-x bottom left; color: #808080; text-align: right; }
+.date a { color: #808080; background: #FFFFFF; }
+
+#shortlogcontents{
+
+	border:1px solid #dddddd;
+	padding:18px;
+	
+	white-space: nowrap; /* CSS2 */
+	word-wrap: break-word; /* IE */
+
+}
+
+
+#commit_view_contents{
+
+	border:1px solid #dddddd;
+	padding:18px;
+	
+	white-space: nowrap; /* CSS2 */
+	word-wrap: break-word; /* IE */
+
+}
+
+#commit_view_menu{
+	
+	margin:10px;
+	padding-top:10px;
+	text-align:left;
+}
+
+#commit_view_files{
+	
+	margin:10px;
+	padding-top:10px;
+	text-align:left;
+}
+
+#commit_view_contents2{
+	padding:5px;
+	font-size:11px;
+	white-space: nowrap; /* CSS2 */
+	word-wrap: break-word; /* IE */
+}
+
+#changelog_search{
+	width:600px;
+	height:70px;
+	margin:10px;
+	padding:0px;
+	text-align:left;
+	border:1px solid #888888
+}
+
+#search_option{
+	font-weight:bold;
+	height:30px;
+	line-height:30px;
+	vertical-align:middle;
+	border-bottom:1px solid #cccccc;
+}
